@@ -1,12 +1,12 @@
-#Wcat 🚀🚀
+Wcat 🚀🚀
 This command is used to display or make a copy of content of one or more files in the terminal
 
 ##Commands:
-1- wcat "filePath" =>displays content of the file in the terminal ✔
+1- wcat "filePath" =>displays content of the file in the terminal 
 
-2- wcat "filePath1" "filePath2" "filePath3"... =>displays the content of all of the listed files in the wcat command in concatenated form in the given order.✔
+2- wcat "filePath1" "filePath2" "filePath3"... =>displays the content of all of the listed files in the wcat command in concatenated form in the given order.
 
-3- wcat -s "filePath" => converts multiple empty lines (big line-breaks) into a singular linebreak.✔
+3- wcat -s "filePath" => converts multiple empty lines (big line-breaks) into a singular linebreak.
 
 4- wcat -n "filePath" => gives numberings to all the existing lines in the listed files' content from the command line.
 
