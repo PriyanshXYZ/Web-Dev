@@ -37,7 +37,7 @@ const path = require('path')
 
 // create
 // mkdirSync is used to create a new directory
-fs.mkdirSync('myDirectory2')
+//fs.mkdirSync('myDirectory2')
 
 //delete
 //rmdirSync is used to remove or delete a directory
@@ -52,11 +52,11 @@ fs.mkdirSync('myDirectory2')
 //stats of a path (details of a folder)
 // lstatsync provides us with all the statistics of a directory
 
-//let statsofPath = fs.lstatSync('myDirectory')
-//console.log(statsofPath)
+// let statsofPath = fs.lstatSync('myDirectory')
+// console.log(statsofPath)
 
 //console.log('isFile?' ,statsofPath.isFile()) 
-// isFile is a metnod that checks wheter a passed path is a file or not
+// isFile is a method that checks whether a passed path is a file or not
 //console.log('isDirectory' , statsofPath.isDirectory()) 
 // isDirectory that checks wheter a passed path is a directory or not
 
