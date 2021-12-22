@@ -11,7 +11,7 @@ console.log(array);
 function isPrime(number){
     let isprime = false;
 for(let j = 2; j*j<= number;j++){
-    if(number%j==0){
+    if(number%j!=0){
         isprime = true;
     }
 }
