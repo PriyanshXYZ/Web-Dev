@@ -15,7 +15,7 @@ let obj={
     },
     fun2:fun,
     fun3: () =>{
-        console.log(this.a+" "+this.b+" "+this.c)
+        console.log(this.a+" "+this.b+" "+this.c)//dont use this in arrow function
     }
 }
 let o2={
@@ -31,4 +31,4 @@ obj.fun3();
 obj.fun1.call(o2)
 fun.call(o2)
 obj.fun2.call(o2)
-obj.fun3.call(o2)
+obj.fun3.call(o2)//arrow function shows different ambigious behavior in node and browser. 
