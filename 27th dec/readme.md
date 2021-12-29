@@ -71,5 +71,5 @@ console.log(res)
 ```
 ---
 ### mixed question which is helpful to get all of the concepts of today.
-- [Question]("https://github.com/PriyanshXYZ/Web-Dev/blob/master/27th%20dec/Q_on_this_alll4.js")
+- [Question](https://github.com/PriyanshXYZ/Web-Dev/blob/master/27th%20dec/Q_on_this_alll4.js)
 --- 
