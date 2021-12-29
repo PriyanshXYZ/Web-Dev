@@ -52,7 +52,7 @@ fun()
 console.log(a)
 //no error as variable doesnt have type so its global
 ```
-- in case of `no` type of declaration [inside the function]() we get variable declared as **global** if we `declare` type we get it **function or blocked scope**   
+- in case of `no` type of declaration [inside the function]() we get variable declared as **global** if we `declare` type we get it [function or blocked scope]()   
 ```javascript
 function fun(){
     let a=10;
