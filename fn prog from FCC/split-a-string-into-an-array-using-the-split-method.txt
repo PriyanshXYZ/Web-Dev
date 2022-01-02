@@ -1,0 +1,17 @@
+// /\W/ is used to match any non-word character.
+// /\d/ is used to match any digit
+
+function splitify(str) {
+  // Only change code below this line
+  let byComma=str.split("-");
+  str=byComma.join(" ");
+  let bydash=str.split(",");
+  str=bydash.join(" ");
+  let bydot=str.split(".");
+  str=bydot.join(" ");
+  let bySpace=str.split(" ");
+  return bySpace;
+  // Only change code above this line
+}
+
+splitify("Hello World,I-am code");

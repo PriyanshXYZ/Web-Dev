@@ -1,0 +1,7 @@
+// Only change code below this line
+function urlSlug(title) {
+  let ans =title.trim().toLowerCase().split(/\W/).filter(s=>s.length>0).join("-");
+  return ans; 
+}
+// Only change code above this line
+

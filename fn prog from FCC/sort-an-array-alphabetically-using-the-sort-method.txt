@@ -1,0 +1,13 @@
+//sort changes the values of origianl array hence should not be used.
+//=== is a strict equality comparison operator in JavaScript, which returns false for the values which are not of a similar type. This operator performs type casting for equality.
+// If we compare 2 with “2” using ===, then it will return a false value
+
+function alphabeticalOrder(arr) {
+  // Only change code below this line
+  return arr.sort(function(a,b){
+    return a===b?0:a>b?1:-1;
+  });
+  // Only change code above this line
+}
+
+alphabeticalOrder(["a", "d", "c", "a", "z", "g"]);
