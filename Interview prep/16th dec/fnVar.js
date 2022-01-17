@@ -8,7 +8,7 @@ function sayHi(name) {
 function chotaFunction() {
     console.log("I am chota function");
 }
-// i am passing a functio definition
+// i am passing a function definition
 sayHi(chotaFunction); //thiscalls  sayhi function  which has parameter chotaFunction  this  invokes the chotafunction as well.
 // name function
 // console.log(sayHi);
