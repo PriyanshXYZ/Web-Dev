@@ -73,13 +73,10 @@ function parseHtml(html) {
                         } else {
                             parseBirthdayHtml(html,name);
                         }
-                    })
-                    
-                    
+                    })                    
+                }
             }
-            
         }
-    }
     }
     function parseBirthdayHtml(html,name){
         let dom = new JSDOM(html);
